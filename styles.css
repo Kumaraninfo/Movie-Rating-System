@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+
+
+}
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, monospace;
+    
+
+}
+#navbar{
+    background-color: pink;
+    padding: 15px;
+}
+.boxx{
+    width: 25%;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    margin: 20px;
+    border-radius:20px ;
+    display: inline-block;
+    vertical-align: top;
+
+}
+.boxx h2 {
+    color:pink;
+}
+.boxx button{
+    background-color: pink;
+    
+    padding: 5px;
+    margin-right: 20px;
+    margin-top: 10px;
+    border:none;
+    border-radius: 10px;
+}
+.plusbutton{
+    background-color: #fd6569;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 40px;
+    border-radius:100% ;
+    position: fixed;
+    bottom: 10%;
+    right: 9%;
+    border:none;
+
+    
+}
+.plusbutton:hover{
+    background-color: black;
+    color:#fd6569;
+}
+.popupp{
+    background-color: black;
+    opacity: 60%;
+    
+    margin:0;
+    top:0;
+    left:0;
+    height: 100%;
+    width: 100%;
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+.movie-add{
+    background-color: pink;
+    width: 40%;
+    border-radius:10px;
+    padding: 40px;
+    display: none;
+    position: absolute;
+    z-index: 2;
+    left:30%;
+    top:20%
+    
+    
+}
+.movie-add h3{
+    
+    padding-bottom:20px ;
+}
+
+.movie-add input{
+    background-color: transparent;
+    padding-right: 200px;
+    margin:20px;
+    height: 40px;
+    border:none;
+    border-bottom: solid black;
+    font-size: 20px;
+}
+.movie-add textarea{
+    background-color: transparent;
+    padding-right: 200px;
+    padding-bottom: 20px;
+    margin:20px;
+    height: 40px;
+    
+    border: solid black;
+    font-size: 20px;
+}
+.movie-add input:focus{
+    outline: none;
+
+}
+.movie-add textarea:focus{
+    outline: none;
+    
+}
+.movie-add input::placeholder{
+    color: black;
+    opacity: 90%;
+}
+.movie-add textarea::placeholder{
+    color: black;
+    opacity: 90%;
+}
+.movie-add button{
+    background-color:black;
+    color: white;
+    
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top:10px ;
+    padding-bottom: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    border:none;
+    margin: 5px;
+    
+
+}
+.movie-add button:hover{
+    background-color: white;
+    color:black;
+}
+
+#delete1:hover{
+    background-color: white;
+
+}
